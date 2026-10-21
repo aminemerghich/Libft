@@ -5,10 +5,11 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/21 17:29:48 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/21 17:36:36 by amerghic         ###   ########.fr       */
+/*   Created: 2026/10/21 22:01:15 by amerghic          #+#    #+#             */
+/*   Updated: 2026/10/21 22:01:23 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include <stddef.h>
 
 size_t	ft_strlen(const char *s)
