@@ -6,7 +6,7 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 18:10:10 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/22 18:48:10 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/22 19:09:05 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,6 +49,8 @@ void	*ft_move_backward(void *dest, const void *src, size_t n)
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
+	if ((n == 0) || (dest == src))
+		return (dest);
 	if (src < dest)
 		ft_move_backward(dest, src, n);
 	else

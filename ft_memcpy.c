@@ -6,7 +6,7 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 01:07:28 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/22 01:08:55 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/22 19:04:42 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stddef.h>
@@ -17,6 +17,10 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	unsigned char		*dest_p;
 	const unsigned char	*src_p;
 
+	if (!dest && !src)
+		return (0);
+	if ((n == 0) || (dest == src))
+		return (dest);
 	i = 0;
 	dest_p = (unsigned char *)dest;
 	src_p = (const unsigned char *)src;
