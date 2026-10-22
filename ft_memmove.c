@@ -6,13 +6,13 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 18:10:10 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/22 19:09:05 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/22 19:14:58 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stddef.h>
 
-void	*ft_move_forward(void *dest, const void *src, size_t n)
+static void	*ft_move_forward(void *dest, const void *src, size_t n)
 {
 	size_t				i;
 	unsigned char		*d;
@@ -29,7 +29,7 @@ void	*ft_move_forward(void *dest, const void *src, size_t n)
 	return (dest);
 }
 
-void	*ft_move_backward(void *dest, const void *src, size_t n)
+static void	*ft_move_backward(void *dest, const void *src, size_t n)
 
 {
 	size_t				i;
