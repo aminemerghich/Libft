@@ -6,11 +6,11 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 22:01:15 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/21 22:01:23 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/23 02:56:33 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 size_t	ft_strlen(const char *s)
 {

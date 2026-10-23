@@ -6,11 +6,11 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 18:10:10 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/22 19:14:58 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/23 02:55:42 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 static void	*ft_move_forward(void *dest, const void *src, size_t n)
 {

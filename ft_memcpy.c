@@ -6,10 +6,10 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 01:07:28 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/22 19:04:42 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/23 02:54:59 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stddef.h>
+#include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {

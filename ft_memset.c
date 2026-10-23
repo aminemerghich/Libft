@@ -6,11 +6,11 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 20:14:01 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/21 20:14:29 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/23 02:56:07 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	*ft_memset(void *s, int c, size_t n)
 {
