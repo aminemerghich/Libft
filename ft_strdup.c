@@ -6,9 +6,11 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/24 23:39:58 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/24 23:43:21 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/24 23:44:55 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strdup(const char *s1)
 {
