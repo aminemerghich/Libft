@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2026/10/24 21:48:22 by amerghic          #+#    #+#              #
+#    Updated: 2026/10/24 21:48:28 by amerghic         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME = libft.a
 
 CC = gcc
@@ -26,7 +38,8 @@ SRCS = ft_isalpha.c \
 	   ft_memcmp.c \
 	   ft_strnstr.c \
 	   ft_atoi.c \
-	   ft_calloc.c
+	   ft_calloc.c \
+	   ft_strdup.c
 
 OBJS = $(SRCS:.c=.o)
 

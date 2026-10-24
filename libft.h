@@ -6,7 +6,7 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/24 21:25:25 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/24 21:39:37 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/24 21:46:58 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,7 @@ void	*ft_memmove(const void *s, int c, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
 void	ft_memcmp(const void *s1, const void *s2, size_t n);
 void	*ft_calloc(size_t nmemb, size_t size);
+char	*ft_strdup(const char *s);
 
 /*strings manipulation*/
 size_t	ft_strlen(const char *s);
