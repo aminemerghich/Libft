@@ -6,7 +6,7 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/24 21:25:25 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/24 21:46:58 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/25 14:33:58 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,4 +48,10 @@ int		ft_strncpm(const char *s1, const char *s2, size_t n);
 
 /*numbers*/
 int		ft_atoi(const char *str);
+
+/* file description functions*/
+void	ft_putendl_fd(char *s, int fd);
+void	ft_putstr_fd(char *s, int fd);
+void	ft_putchar_fd(char c, int fd);
+void	ft_putnbr_fd(int n, int fd);
 #endif
