@@ -6,7 +6,7 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/24 21:25:25 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/25 14:33:58 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/27 23:17:34 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,12 @@ char	*ft_strrchr(const char *s, int c);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strdup(const char *s);
 int		ft_strncpm(const char *s1, const char *s2, size_t n);
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
+char	**ft_split(char const *s, char c);
+char	*ft_strtrim(char const *s1, char const *set);
+char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
 
 /*numbers*/
 int		ft_atoi(const char *str);

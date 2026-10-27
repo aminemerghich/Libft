@@ -6,7 +6,7 @@
 #    By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/24 21:48:22 by amerghic          #+#    #+#              #
-#    Updated: 2026/10/25 14:31:46 by amerghic         ###   ########.fr        #
+#    Updated: 2026/10/27 23:15:19 by amerghic         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,7 +43,13 @@ SRCS = ft_isalpha.c \
 	   ft_putchar_fd.c \
 	   ft_putstr_fd.c \
 	   ft_putendl_fd.c \
-	   ft_putnbr_fd.c
+	   ft_putnbr_fd.c \
+	   ft_substr.c \
+	   ft_strjoin.c \
+	   ft_strtrim.c \
+	   ft_split.c \
+	   ft_strmapi.c \
+	   ft_striteri.c
 
 OBJS = $(SRCS:.c=.o)
 
