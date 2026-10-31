@@ -6,7 +6,7 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/24 21:25:25 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/31 14:38:37 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/31 15:41:53 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ char				**ft_split(char const *s, char c);
 char				*ft_strtrim(char const *s1, char const *set);
 char				*ft_strjoin(char const *s1, char const *s2);
 char				*ft_substr(char const *s, unsigned int start, size_t len);
-
+char				*ft_strnstr(const char *big, const char *little, size_t len);
 /*numbers*/
 int					ft_atoi(const char *str);
 char				*ft_itoa(int n);
