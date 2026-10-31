@@ -6,23 +6,17 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/31 11:57:05 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/31 11:57:28 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/31 15:05:00 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_lstadd_back(t_list **lst, t_list *new)
+void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
-	t_list	*last;
-
-	if (!lst || !new)
+	if (!lst)
 		return ;
-	if (!*lst)
-	{
-		*lst = new;
-		return ;
-	}
-	last = ft_lstlast(*lst);
-	last->next = new;
+	if (del)
+		(del)(lst->content);
+	free(lst);
 }
