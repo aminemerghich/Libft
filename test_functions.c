@@ -4,7 +4,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include "../libft.h"
+#include "libft.h"
 #include <limits.h>
 # include <stddef.h>
 # include <unistd.h>
