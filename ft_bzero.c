@@ -6,11 +6,11 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 00:36:54 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/22 00:39:25 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/31 13:56:11 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {
