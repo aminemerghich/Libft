@@ -6,7 +6,7 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 14:38:32 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/25 14:39:21 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/31 14:41:07 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,5 @@ void	ft_putnbr_fd(int n, int fd)
 	if (n >= 10)
 		ft_putnbr_fd(n / 10, fd);
 	c = (n % 10) + '0';
-	write(fd, &c, 1);
+	ft_putchar_fd(c, fd);
 }

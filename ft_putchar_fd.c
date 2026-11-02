@@ -6,13 +6,13 @@
 /*   By: amerghic <amine.merghich@student.42.be>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 14:35:49 by amerghic          #+#    #+#             */
-/*   Updated: 2026/10/25 14:36:42 by amerghic         ###   ########.fr       */
+/*   Updated: 2026/10/31 14:58:31 by amerghic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putnbr_fd(int n, int fd)
+void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
